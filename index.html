@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
+    <title>My Bootstrap web</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light my-nav p-4">
+        <div class="container-fluid">
+          <a class="navbar-brand text-uppercase text-light" href="#">iftikhar industries limited</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#carouselExampleCaptions">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize text-light" href="#about_us">about us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-capitalize text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  services
+                </a>
+                <ul class="dropdown-menu my-drpdn" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-capitalize text-light" href="#our_services">Maintainence</a></li>
+                  <li><a class="dropdown-item text-capitalize text-light" href="#our_services">Guaidance</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-capitalize text-light" href="#our_services">System Exchange</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize text-light" href="#gallary">gallary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize text-light" href="#contact_us">contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <header>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imgs/m1.jpg" class="d-block w-100" alt="hp images">
+                <div class="carousel-caption d-md-block">
+                  <h5>Robotics</h5>
+                  <p>My company also represent the new or advanced robotics technologies</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/m2.jpg" class="d-block w-100" alt="hp images">
+                <div class="carousel-caption d-md-block">
+                  <h5>HP Designs</h5>
+                  <p>We have modern designes and look for systems and products </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/m3.jpg" class="d-block w-100" alt="hp images">
+                <div class="carousel-caption d-md-block">
+                  <h5>Digitilization</h5>
+                  <p>We introduce new packages for modern digitilization for modern world</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </header>
+
+      <section class="main-sec my-5 py-5" id="about_us">
+          <div class="text-center">
+              <h1 class="display-4">about us</h1>
+              <hr class="w-25 mx-auto">
+          </div>
+
+          <div class="container ">
+              <div class="row my-5">
+                  <div class="col-lg-6 col-xl-6 col-12 col-xxl-6">
+                      <figure>
+                          <img src="imgs/ab1.jpg" alt="Hp images" class="img-fluid ab_img mb-4">
+                      </figure>
+                  </div>
+                  <div class="col-lg-6 col-xl-6 col-12 col-xxl-6 d-flex flex-column justify-content-center align-item-center">
+                      <h1 class="mb-4 fw-bold">My Journey</h1>
+                      <p class="p_ab">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis veniam nobis alias! Ratione maxime atque eos quisquam, consequatur aspernatur in exercitationem soluta laboriosam asperiores architecto corporis rem consequuntur officia. Nulla? Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                      <div class="row">
+                        <div class="col-12 col-sm-3 text-center">
+                          <button type="button" class="btn btn-outline-primary " data-bs-toggle="tooltip" data-bs-placement="right" title="Who am I">Check More</button>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="row">
+                <div class="col-xxl-12 col-12 col-md-12 mx-auto" style="position: relative;">
+                  <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+                    <a class="navbar-brand" href="#">About Wasif&Companies</a>
+                    <ul class="nav nav-pills">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">BIO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading2">History</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">More</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#scrollspyHeading3">Success</a></li>
+                          <li><a class="dropdown-item" href="#scrollspyHeading4">Previous Project</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#scrollspyHeading5">Sponsers</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </nav>
+                  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0" style="height:300px; overflow-y: scroll">
+                    <h4 id="scrollspyHeading1">BIO</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi necessitatibus labore consequuntur sit iure, facilis inventore excepturi doloremque veritatis magni iusto dolore velit amet, ullam quo cumque nisi cum quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas adipisci fugiat molestiae impedit veniam laboriosam repellat ipsum eos earum error. Corporis quas molestias optio voluptates tempora dolorem eum reprehenderit nulla! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptates at magnam nesciunt harum quisquam sapiente a quos provident totam sunt placeat perspiciatis, est eaque impedit laboriosam laudantium. Minus, optio!</p>
+                    <h4 id="scrollspyHeading2">History</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe laborum dolor unde! Alias asperiores, enim nemo placeat cumque eius eos ducimus deserunt quasi libero praesentium non tenetur? Ut, iure quam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nam quis ipsam obcaecati recusandae voluptates, voluptatum veritatis pariatur magni vero, in saepe exercitationem eligendi minima excepturi laborum maxime distinctio officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, quod ipsa atque excepturi nostrum non corporis totam dolorum sed itaque aperiam qui vitae modi consequuntur quo quis provident deleniti earum.</p>
+                    <h4 id="scrollspyHeading3">Success</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio deleniti quod laborum iste, eos totam laboriosam. Culpa nulla sed ad voluptate? Molestias nesciunt cupiditate amet vitae natus ratione laborum iusto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quisquam laudantium officia sequi aperiam molestias laboriosam pariatur itaque? Blanditiis incidunt in quasi veniam impedit doloribus totam velit accusantium obcaecati porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ea necessitatibus explicabo id non omnis? Quas reprehenderit quia perferendis repellat atque, possimus sint sunt saepe cumque nostrum perspiciatis consequuntur maxime.</p>
+                    <h4 id="scrollspyHeading4">Previous Project</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et repudiandae ipsa itaque odio voluptas libero, dicta nobis quibusdam atque, voluptate omnis impedit sapiente, in cum ea ex accusantium temporibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid facilis sed expedita quisquam ipsa et excepturi soluta, quibusdam voluptate ex, quasi modi velit reiciendis obcaecati dolore reprehenderit possimus, dolorum recusandae? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti reiciendis neque tenetur non eveniet illum ipsum accusamus qui quae. Necessitatibus obcaecati veniam possimus exercitationem blanditiis vitae, ea modi aliquam porro.</p>
+                    <h4 id="scrollspyHeading5">Sponsers</h4>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat velit asperiores cupiditate quos iure a incidunt modi, laudantium eum, pariatur, expedita eveniet? Maiores minus vitae, commodi ea modi temporibus in. ipsum, dolor sit amet consectetur adipisicing elit. Ullam veniam provident autem nemo repellendus quidem iusto tenetur delectus, debitis modi laboriosam? Voluptas, harum maiores fugiat et facilis perferendis incidunt aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fugiat deleniti quos harum dicta rem quidem aliquam quaerat reiciendis nesciunt cum exercitationem porro magnam facilis aperiam, incidunt velit a voluptates.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+   
+
+      <section class="main-sec-ser my-5 bg-light py-5" id="our_services">
+        <div class="text-center">
+            <h1 class="display-4 mt-5">Our Services</h1>
+            <hr class="w-25 mx-auto">
+        </div>
+        <div class="conatainer services m-5">
+          <div class="row">
+            <div class="col-md-4 col-11 col-xxl-4 mx-auto">
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="imgs/card 1.jpg" class="img-fluid rounded-start" alt="card1 image">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Maintainence</h5>
+                      <p class="card-text">we prvide the high quality maintainece for our customers. Icluded laptop screens, machine hardware maontainence, RAM, Battery etc.</p>
+                      <p class="card-text"><small class="text-muted">Maintainence for rialiable prices</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-11 col-xxl-4 mx-auto">
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="imgs/card 2.jpeg" class="img-fluid rounded-start" alt="card2 image">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Guaidance</h5>
+                      <p class="card-text">We provide Guaidance for our customers and new comers for that they can purchase correct machine. Also special Guaidance for zero knowledge customers.</p>
+                      <p class="card-text"><small class="text-muted">Well-Known guaidance</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-11 col-xxl-4 mx-auto">
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="imgs/card 3.jpg" class="img-fluid rounded-start" alt="card3 image">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title"> System Exchange</h5>
+                      <p class="card-text">We have the service for exchanging the new machines by giving your old machine. Exchanging is done in very benficial for customers.</p>
+                      <p class="card-text"><small class="text-muted">Good Exchange Service</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center my-4">
+              <button type="button" class="btn btn-outline-primary butser" data-bs-toggle="tooltip" data-bs-placement="right" title="our services">Check More</button>
+            </div>
+          </div>
+         
+        </div>
+      </section>
+
+      <section class="main-sec-gal my-5 py-2" id="gallary">
+        <div class="text-center">
+            <h1 class="display-4 mt-5">Gallary</h1>
+            <hr class="w-25 mx-auto">
+        </div>
+        
+        <div class="container">
+          <div class="row">
+          <div class="col-lg-4 col-md-4 col-xxl-4">
+            <div class="alert alert-info tst alert-dismissible fade show px-0 shadow p-3 bg-body" role="alert">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill ms-1 me-2" viewBox="0 0 16 16">
+                  <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                </svg>
+                <strong class="me-auto">Bootstrap</strong>
+                <small class="ms-5 ps-5">11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                <hr>
+                <div class="toast-body"> 
+                  Hello, world! This is a toast message.
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xxl-4">
+            <div class="alert alert-info tst alert-dismissible fade show px-0 shadow p-3 bg-body mb-0 " role="alert">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill ms-1 me-2" viewBox="0 0 16 16">
+                  <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                </svg>
+                <strong class="me-auto">Bootstrap</strong>
+                <small class="ms-5 ps-5">11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                <hr>
+                <div class="toast-body"> 
+                  Hello, world! This is a toast message.
+                </div>
+            </div>
+          </div>
+         
+          </div>
+        </div>
+        <div class="container">
+          <div class="row gy-2 my-5">
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="imgs/ab1.jpg" alt="gallary img" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="imgs/ab1.jpg" alt="gallary img" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="imgs/ab1.jpg" alt="gallary img" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="imgs/ab1.jpg" alt="gallary img" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="imgs/ab1.jpg" alt="gallary img" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="imgs/ab1.jpg" alt="gallary img" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="imgs/ab1.jpg" alt="gallary img" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="imgs/ab1.jpg" alt="gallary img" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-md-4 col-10 col-xxl-4 mx-auto">
+              <figure>
+                <img src="imgs/ab1.jpg" alt="gallary img" class="img-fluid">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="offer mb-5">
+        <div class="fluid-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-xxl-12 col-12 py-5 px-0 text-center">
+              <h1 class=" h1 text-white">Check out my videos</h1>
+              <p>Never give up on somthingthat you can't go a day 
+                without thinking about
+              </p>
+              
+              <button type="button" class="btn btn-outline-light butser" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="bi bi-arrow-bar-right"></i> Check More</button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Visit My Videos</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               If you want to know about me then check out out my video 
+               and contact for your order and please if you like my 
+               video rate me.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <a href="https://www.youtube.com/watch?v=ZPA9zl-QPmY" target="_blank">
+              <button type="button" class="btn btn-primary">Check Now</button>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="main-sec-gal my-5 py-2" id="contact_us">
+        <div class="text-center">
+            <h1 class="display-4 mt-5">Contact Us</h1>
+            <hr class="w-25 mx-auto">
+        </div>
+
+        <div class="conatainer ">
+          <div class="row my-5 mx-0">
+            <div class="col-xxl-8 col-10 col-md-8 mx-auto bg-light p-5 frm">
+              <form>
+                <div class="mb-5">
+                  <label for="exampleInputPassword1" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your name">
+                </div>
+                <div class="mb-5">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="d-flex">
+                <div class="mb-5">
+                  <label class="pe-5">Gender</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Femail</label>
+                </div>
+              </div>
+            </div>
+
+              <div class="input-group mb-5">
+                <input type="file" class="form-control" id="inputGroupFile02">
+                <label class="input-group-text" for="inputGroupFile02">Upload</label>
+              </div>
+
+              <div class="mb-5">
+                <label for="exampleDataList" class="form-label">Select City</label>
+<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+<datalist id="datalistOptions">
+  <option value="Karachi"> Karachi </option>
+  <option value="Lahore"> Lahore </option>
+  <option value="IsLamabad"> IsLamabad </option>
+  <option value="Multan"> Multan </option>
+  <option value="Peshawar"> Peshawar </option>
+</datalist>
+              </div>
+
+              <div class="mb-5">
+                <label for="exampleFormControlTextarea1" class="form-label">Query</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-secondary text-center text-white">
+        <p class="mb-0">@copyright wasif&companies</p>
+
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+
+        var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+        var toastList = toastElList.map(function (toastEl) {
+          return new bootstrap.Toast(toastEl, option)
+          toast.show();
+        })
+        toastList[0].show();
+//         document.getElementById("toastbtn").onclick = function() {
+//   var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+//   var toastList = toastElList.map(function(toastEl) {
+//     return new bootstrap.Toast(toastEl)
+//   })
+//   toastList.forEach(toast => toast.show())
+// }
+    </script>
+  </body>
+</html>
